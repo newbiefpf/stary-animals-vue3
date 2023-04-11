@@ -226,7 +226,6 @@ export default {
   },
   created() {
     hotNewsList(0).then((res) => {
-      console.log(res);
       this.news = res.content;
     });
     hotNewsList(1).then((res) => {
